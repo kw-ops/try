@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css22?family=Poppins:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-size: 62.5%;*/
+    text-decoration: none;
+    
+}
+header{
+    background: linear-gradient(rgba(215, 240, 248, 0.9),rgba(214, 247, 247, 0.6)),url('/4d23c50b80304ed7b856ad86448dba28.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family:  "Poppins" , sans-serif;
+}
+
+
+/*
+h1,h2,h3,p {
+    margin: 1.6rem 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 3.6rem;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+section{
+    padding: 100px 0;
+}*/
+.max-width{
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: auto;
+}
+.navbar{
+    
+    position: fixed; 
+    width: 100%;
+    padding:10px 0;
+}
+.navbar .sticky{
+    background: green;
+    padding:10px 0;
+}
+.navbar .logo img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+
+}
+.navbar .menu li a:hover{
+    color: greenyellow;
+}
+/*wel-page {
+    
+    
+    
+}
+h1 {
+    margin: -70px 0px auto 120px;
+    padding: 30px;
+    color: rgb(255, 38, 0);
+}
+p{
+    color: rgb(255, 38, 0);
+}
+span{
+    color: rgb(11, 46, 245);
+}*/
+.wel-screen {
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    
+}
+.wel-screen .max-width{
+    margin: auto 40px auto 40px;
+    background-color: rgba(243, 222, 115, 0.8);
+    padding: 40px;
+    color: rgb(255, 85, 0);
+}
+.wel-screen .welcome {
+    margin: 20px 0;
+   /* margin-left: 220px;*/
+   align-items: center;
+   
+}
+.wel-screen  span{
+    color: blue;
+}
