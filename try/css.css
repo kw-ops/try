@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css22?family=Poppins:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-decoration: none;
+    background-color: black;
+    font-family: "Poppins" ,sans-serif;
+    
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.cletus{
+    color: rgb(43, 249, 20);
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.navbar ul li a {
+    margin: 15px;
+    font-size: 15px;
+    width: max-content;
+    color: white;
+}
+.navbar ul li ::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: rgb(230, 236, 236);
+    display: block;
+    margin-left: 15px ;
+    transition: 0.5s;
+}
+.navbar ul li :hover::after{
+    width: 80%;
+}
+.main-page{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.left{
+    font-size: 35px;
+}
+
+.left .letf-text{
+    font-size: 35px;
+    font-style: inherit;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    display: inline-block;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 50px;
+    background-color:rgba(240, 255, 255, 0.642);
+    font-size: 15px;
+    font-family: "Poppins" ,sans-serif;
+    border-radius: 20px;
+}
+.divider{
+    margin-top: 70px;
+    background-color:rgb(149, 150, 135);
+    width:1280px;
+    display: inline-block;
+    height: 0.5px;
+}
+.buttom{
+    display: flex;
+    color: rgb(149, 150, 135);
+    align-items: center;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px 30px;
+}
+.btm-cletus{
+    color: rgb(149, 150, 135);
+    font-size: 20px;
+}
+.download{
+    color: rgb(149, 150, 135);
+    font-size: 15px;
+    text-decoration: underline;
+}
+.list{
+    color: rgb(149, 150, 135);
+    font-size: 10px;
+    list-style: none;
+}
+.buttom ul li {
+    font-size: 10px;
+}
+.box{
+    background-color:rgb(136, 233, 72);
+    height: 200px;
+    width: 150px;
+    margin-right: 300px;
+
+}
+@media screen  and ( max-width : 900px)
+{
+    .box{
+        background-color:rgb(136, 233, 72);
+        height: 200px;
+        width: 150px;
+        margin-right: 50px;
+    
+    }
+}
+
+@media screen  and ( max-width : 600px)
+{
+    .box{
+        background-color:rgb(136, 233, 72);
+        height: 200px;
+        width: 150px;
+        margin-right: 0px;
+    
+    }
+}
